@@ -1,0 +1,60 @@
+/* Classes modification */
+
+.profile_picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.Listing {
+  color: #eeeeee;
+}
+
+.Socials {
+  filter: invert(100%);
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+
+}
+
+.div {
+  color: #eeeeee;
+  margin: 100px auto;
+  width: 70%;
+  height:  500px;
+  padding-top: 180px;
+}
+
+
+/* None Classes modification */
+h1 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+em {
+  font-size: 1.5em;
+}
+
+li {
+  font-size: 1.3em
+}
+
+body {
+  background-color: #222831;
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-width: 6px;
+  width: 16%;
+  color: #eeeeee;
+}
