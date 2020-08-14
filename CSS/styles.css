@@ -4,6 +4,7 @@
   width: 200px;
   height: 200px;
   border-radius: 100%;
+  margin-bottom: 25px;
 }
 
 .Listing {
@@ -26,7 +27,22 @@
   padding-top: 180px;
 }
 
+.Github {
+  width: 50%;
+  margin-bottom: 500px;
+}
 
+.githubimage {
+  margin: 10px;
+}
+
+.myprojecthr {
+  margin-bottom: 50px;
+}
+
+.myprojecthrbuttom {
+  margin-top:200px;
+}
 /* None Classes modification */
 h1 {
   font-size: 2.5em;
