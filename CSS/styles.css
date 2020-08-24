@@ -52,7 +52,8 @@ h5 {
 
 /* github column style */
 .mbr-justify-content-center {
-  padding: 2% 15%;
+  padding: 2% 5%;
+  margin: 0;
 }
 
 .wrap {
@@ -140,6 +141,7 @@ p {
 
 .social {
   padding: 1% 35% 0 35%;
+  margin: 0;
 }
 
 .social-image {
@@ -159,6 +161,7 @@ p {
 
   .social-image {
     width: 40px;
+    margin: 0;
   }
 }
 
@@ -172,6 +175,37 @@ p {
   }
 
   .title-col {
-        padding: 0 0 3% 0;
-}
+    padding: 0 0 3% 0;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .display-5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .social-image {
+    width: 40px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .framework {
+    padding: 10% 0;
+  }
 }
