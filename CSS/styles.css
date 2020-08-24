@@ -1,80 +1,177 @@
-/* Classes modification */
-
-.profile_picture {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-<<<<<<< HEAD
-  margin-bottom: 25px;
-=======
-  margin-bottom: 25px; 
->>>>>>> 2aba07425b118903e09441b8b48199f36a6c496e
+.navbar-toggler {
+  border: 0px;
 }
 
-.Listing {
-  color: #eeeeee;
+h1, h4, h2, h5 {
+  color: #EEEEEE;
+  font-family: 'Playfair Display', serif;
 }
 
-.Socials {
-  filter: invert(100%);
-  width: 50px;
-  height: 50px;
-  margin: 20px;
-
+h5 {
+  color: #EEEEEE;
+  font-style: italic;
 }
 
-.div {
-  color: #eeeeee;
-  margin: 100px auto;
+.btn {
+  color: white;
+  border: 1px solid white;
+  width: 170px;
+  height: 45px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #181A1D;
+}
+
+.navbar {
+  padding-bottom: 3%;
+}
+
+.nav-link {
+  color: #EEEEEE !important;
+  width: 150px;
+  font-size: 1.5rem !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.title-col {
+  padding: 17% 100px 0 17%;
+}
+
+.boarder-picture {
   width: 70%;
-  height:  500px;
-  padding-top: 180px;
 }
 
-.Github {
-  width: 50%;
-  margin-bottom: 500px;
-}
-
-.githubimage {
-  margin: 10px;
-}
-
-.myprojecthr {
-  margin-bottom: 50px;
-}
-
-.myprojecthrbuttom {
-  margin-top:200px;
-}
-/* None Classes modification */
-h1 {
-  font-size: 2.5em;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-em {
-  font-size: 1.5em;
-}
-
-li {
-  font-size: 1.3em
-}
-
-body {
-  background-color: #222831;
-  margin: 0;
+/* section 2 */
+#portfolio {
   text-align: center;
-  font-family: sans-serif;
+  margin: 10px 0;
+  padding: 2% 0;
 }
 
-hr {
-  border-style: none;
-  border-top: dotted;
-  border-width: 6px;
-  width: 16%;
-  color: #eeeeee;
+/* github column style */
+.mbr-justify-content-center {
+  padding: 2% 15%;
+}
+
+.wrap {
+  display: flex;
+  background: #151515;
+  padding: 2rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 5px -3px rgba(238, 238, 238, 1);
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.wrap:hover {
+  background: linear-gradient(90deg, #3B3B3B 0%, #151515 100%);
+  color: white;
+}
+
+.ico-wrap {
+  margin: auto;
+}
+
+.mbr-iconfont {
+  font-size: 4.5rem !important;
+  color: #EEEEEE;
+  margin: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.vcenter {
+  margin: auto;
+}
+
+.mbr-section-title3 {
+  text-align: left;
+}
+
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.display-5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.4rem;
+}
+
+.mbr-bold {
+  font-weight: 700;
+}
+
+p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+  color: #EEEEEE;
+}
+
+.display-6 {
+  padding-right: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem
+}
+
+/* About section */
+#contact {
+  text-align: center;
+  margin: 10px 0;
+  padding: 2% 0;
+}
+
+.contact-title {
+  padding: 0 10%;
+}
+
+.framework {
+  padding: 10% 15%;
+}
+
+.framework-image {
+  padding: 10%;
+  width: 120px;
+  height: 120px;
+}
+
+.social {
+  padding: 1% 35% 0 35%;
+}
+
+.social-image {
+  width: 50px;
+}
+
+@media (max-width: 1150px) {
+  .framework-image {
+    padding: 10%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .framework {
+    padding: 10% 10%;
+  }
+
+  .social-image {
+    width: 40px;
+  }
+}
+
+@media (max-width: 770px) {
+  .boarder-picture {
+    width: 50%;
+  }
+
+  .main-page-col {
+    text-align: center;
+  }
+
+  .title-col {
+        padding: 0 0 3% 0;
+
 }
