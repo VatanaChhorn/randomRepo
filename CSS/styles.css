@@ -12,9 +12,13 @@ h5 {
   font-style: italic;
 }
 
+body {
+  margin: 0;
+}
+
 .btn {
-  color: white;
-  border: 1px solid white;
+  color: white !important;
+  border: 1px solid white !important;
   width: 170px;
   height: 45px;
   margin-top: 10px;
@@ -118,34 +122,51 @@ p {
   font-size: 1rem
 }
 
+
 /* About section */
 #contact {
   text-align: center;
   margin: 10px 0;
-  padding: 2% 0;
+  padding: 2% 0 0 0;
 }
 
 .contact-title {
   padding: 0 10%;
 }
 
-.framework {
-  padding: 10% 15%;
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
-.framework-image {
-  padding: 10%;
+.container-fluid {
+  padding: 8% 15%;
+}
+
+.contactContrainer {
+    padding: 3% 10%;
+}
+
+.framework-row {
+  padding: 1% 15%;
+}
+
+.framework-Image {
   width: 120px;
   height: 120px;
+  padding: 20px;
 }
 
 .social {
+  width: 100%;
+  height: 70px;
   padding: 1% 35% 0 35%;
   margin: 0;
 }
 
 .social-image {
-  width: 50px;
+  width: 70px;
+  padding: 10px;
 }
 
 @media (max-width: 1150px) {
@@ -155,12 +176,20 @@ p {
     height: 100px;
   }
 
+  .social {
+    padding: 1% 25% 0 25%;
+  }
+
   .framework {
     padding: 10% 10%;
   }
 
+  .framework-row {
+    padding: 2% 0;
+  }
+
   .social-image {
-    width: 40px;
+    width: 60px;
     margin: 0;
   }
 }
@@ -200,16 +229,17 @@ p {
   }
 
   .social-image {
-    width: 40px;
-    margin: 0;
-    padding: 0;
+    width: 50px;
+    padding: 0 -20px;
   }
 
   .framework {
     padding: 10% 0;
   }
 
-  .row {
-    magine: 0;
+
+  .social {
+    padding: 0 15% 0 15%;
   }
+
 }
