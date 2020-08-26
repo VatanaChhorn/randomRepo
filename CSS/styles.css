@@ -140,7 +140,7 @@ p {
 }
 
 .container-fluid {
-  padding: 8% 15%;
+  padding: 8% 0%;
 }
 
 .contactContrainer {
@@ -152,8 +152,8 @@ p {
 }
 
 .framework-Image {
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   padding: 20px;
 }
 
@@ -236,7 +236,6 @@ p {
   .framework {
     padding: 10% 0;
   }
-
 
   .social {
     padding: 0 15% 0 15%;
