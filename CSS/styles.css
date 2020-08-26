@@ -176,8 +176,8 @@ p {
 
   .framework-Image {
     padding: 20px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
 
   .container-fluid {
@@ -202,7 +202,34 @@ p {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
+  #portfolio {
+    padding: 5% 0;
+  }
+
+  #contact {
+    padding: 5% 0;
+  }
+
+  .p {
+    line-height: 0;
+  }
+
+  .display-6 {
+    padding-right: 0;
+    font-size: 0.9rem;
+  }
+  .mbr-iconfont {
+    font-size: 3rem !important;
+    padding-bottom: 1rem;
+  }
+
+  .framework-Image {
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+  }
+
   .boarder-picture {
     width: 50%;
   }
@@ -221,11 +248,12 @@ p {
 
   h2 {
     font-size: 1.5rem;
+    margin: 0;
   }
 
   .display-5 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   h4 {
