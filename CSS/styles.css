@@ -211,6 +211,10 @@ p {
     padding: 5% 0;
   }
 
+  .portfolio_title {
+    padding-bottom: 5%;
+  }
+
   .p {
     line-height: 0;
   }
