@@ -1,55 +1,63 @@
+html {
+  scroll-behavior: smooth;
+}
 
-.spinner-wrapper{
-    width: 100%;
-    height: 100%;
-    background-color: #151515;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Portfolio logo */
+.portfolio_logo {
+  width: 120px;
+  height: 120px;
+}
+
+.spinner-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #151515;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .spinner {
-    position: relative;
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
 }
 
 .spinner::before,
-.spinner:after{
-    content: "";
-    position: absolute;
-    border-radius: 50%;
+.spinner:after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
 }
 
 .spinner:before {
-    width: 100%;
-    height: 100%;
-    background-image:linear-gradient(90deg, #EEEEEE 0%,#151515 100% );
-    animation: spin .5s infinite linear;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, #EEEEEE 0%, #151515 100%);
+  animation: spin .5s infinite linear;
 }
+
 .spinner:after {
-    width: 90%;
-    height: 90%;
-    background-color: #151515;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  background-color: #151515;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
-
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* above codes are preloading */
-
 .navbar-toggler {
   border: 0px;
 }
@@ -128,7 +136,11 @@ body {
 }
 
 .ico-wrap {
-  margin: auto;
+  margin: 0 auto auto auto;
+}
+
+.portfolio_logo {
+  border-radius: 25px;
 }
 
 .mbr-iconfont {
@@ -174,7 +186,6 @@ p {
   font-size: 1rem
 }
 
-
 /* About section */
 #contact {
   text-align: center;
@@ -196,7 +207,7 @@ p {
 }
 
 .contactContrainer {
-    padding: 3% 10%;
+  padding: 3% 10%;
 }
 
 .framework-row {
@@ -275,6 +286,7 @@ p {
     padding-right: 0;
     font-size: 0.9rem;
   }
+
   .mbr-iconfont {
     font-size: 3rem !important;
     padding-bottom: 1rem;
@@ -333,5 +345,4 @@ p {
   .social {
     padding: 0 15% 0 15%;
   }
-
 }
